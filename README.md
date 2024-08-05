@@ -1,4 +1,3 @@
-# PRODIGY_WD_01
 # Travello Landing Page
 
 ## Overview
