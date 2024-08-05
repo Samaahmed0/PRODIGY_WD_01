@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fffffb;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color:#444039;
+}
+.logo{
+   width:200px;
+}
+
+#hero{
+    background:url('./images/bg-hero.jpg');
+    height: 100vh; 
+   background-size: cover; 
+    background-position: center; 
+}
+.hero{
+    padding-top: 100px;
+}
+
+.navbar-nav {
+    padding-left: 25%;
+}
+  
+.navbar-brand {
+    margin-right: 0;
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color:#dfa561;
+}
+.navbar{
+    background-color: rgba(35, 39, 38, 0.321) !important;
+}
+.nav-link{
+    color:white !important;
+    margin:0 10px;
+}
+.nav-link:hover{
+    color:#dfa561 !important;
+}
+#hero h1, .home p{
+    color:#f9f6f3 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#about{
+    color:#444039;
+    padding: 60px 0 ;
+    background-color:#f9f6f3;
+}
+
+#about img {
+    object-fit: cover;
+}
+
+
+#about h2{
+    color:#c98a43;
+    margin-bottom: 20px;
+    font-size: 3rem;
+  
+}
+#about ul{
+    margin-top: 50px;
+}
+#about ul li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+
+.lead{
+    color:white;
+    margin-top: 25px;
+    font-weight:400;
+
+}
+.feature-icon img{
+    height:80px;
+    width:80px;
+   
+}
+.feature-card {
+    max-width: 300px;
+    height:350px;
+    padding: 1rem; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: white; 
+}
+  
+.partnerships{
+    background-color: #f9f6f3;
+}
+.partner img{
+    max-width:200px;
+    height: auto;
+}
+
+.ad{
+    background: url('./images/egypt(3).jpg');
+    height:350px;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    align-items: center; 
+    position: relative;
+    
+}
+.ad h3{
+    color: #f9f6f3; 
+    font-size: 45px;
+    max-width: 700px; 
+      margin-left: 50px; 
+      padding: 10px; 
+      word-wrap: break-word; 
+      font-weight: bold;
+}
+
+.navbar.scrolled {
+    background-color:  #dfa561 !important;
+}
+
+
+.nav-link.scrolled-link:hover {
+    color:#444039 !important;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button{
+margin-bottom: 15px;
+color: white;
+background-color: #dfa561;
+padding: 15px 20px;
+border-radius: 10px;
+border: none;
+}
+button:hover{
+    background-color: #c98a43;
+}
+
+#packages h3{
+    color: #444039;
+    font-weight: bold;
+   padding-top: 30px;
+   padding-left: 25px;
+   font-size: 2rem;
+
+}
+
+.price{
+    color: #dfa561;
+    font-size: 2rem;
+  
+    
+}
+
+.details{
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.detail{
+    display: flex;
+}
+.detail img{
+    width:25px;
+    height:25px;
+    margin-right: 8px;
+}
+
+footer .logo{
+    margin-top: 20px;
+    padding-right: 20px;
+    
+}
+footer ul li a{
+    text-decoration: none;
+    color: #444039;
+}
+footer ul li a:hover{
+    font-weight: bold;
+}
+
+#newsletter1 {
+    height: 55px; 
+    
+}
